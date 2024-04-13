@@ -2,13 +2,7 @@
 <div id="header" align="center">
   <img src="https://avatars.githubusercontent.com/u/140193303?v=4" width ="100"   border-radius: 100px />
 </div>
-<h1 align="center">What's up i am Roman Belxz</h1>
 
-<h3 align="center">Glad to see you on my page</h3>
-
-<h2 align="center" color="#00BFFF"> Will tell you about myself in short  </h2>
-
-<h2 align="center">I am from Russia and i am an fullstack & mobile developer</h2>
 
 <h1 align="center">There is my stack , technologies and tools i use , hope you too :</h1>
 
