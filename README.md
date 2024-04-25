@@ -4,7 +4,7 @@
 </div>
 
 
-<h1 align="center">There is my stack , technologies and tools i use , hope you too :</h1>
+<h1 align="center" color="blue">There is my stack , technologies and tools i use , hope you too :</h1>
 
 
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) 
