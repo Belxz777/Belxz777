@@ -1,7 +1,5 @@
 
-<div id="header" align="center">
-  <img src="https://avatars.githubusercontent.com/u/140193303?v=4" width ="100"   border-radius: 100px />
-</div>
+
 
 
 
