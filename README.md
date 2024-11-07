@@ -1,47 +1,86 @@
-
-
-
-<div >
-  <h1 style="text:center">Tech i use:</h1>
+<div class="container">
+  <div class="content">
+    <h1 class="title">Your Name</h1>
+    <p class="subtitle">GitHub Enthusiast & Eagle Lover</p>
+  </div>
+  <div class="eagles">
+    <svg class="eagle eagle1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+      <path d="M50 20 L70 40 L80 35 L90 40 L80 45 L70 50 L80 55 L70 60 L50 80 L30 60 L20 55 L30 50 L20 45 L10 40 L20 35 L30 40 Z" fill="white"/>
+    </svg>
+    <svg class="eagle eagle2" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+      <path d="M50 20 L70 40 L80 35 L90 40 L80 45 L70 50 L80 55 L70 60 L50 80 L30 60 L20 55 L30 50 L20 45 L10 40 L20 35 L30 40 Z" fill="white"/>
+    </svg>
+    <svg class="eagle eagle3" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+      <path d="M50 20 L70 40 L80 35 L90 40 L80 45 L70 50 L80 55 L70 60 L50 80 L30 60 L20 55 L30 50 L20 45 L10 40 L20 35 L30 40 Z" fill="white"/>
+    </svg>
+  </div>
+  <style>
+    .container {
+      width: 100%;
+      height: 200px;
+      background: linear-gradient(45deg, #0047AB, #4169E1, #1E90FF);
+      position: relative;
+      overflow: hidden;
+      border-radius: 10px;
+    }
+    .content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      z-index: 2;
+    }
+    .title {
+      font-size: 3em;
+      color: #ffffff;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    }
+    .subtitle {
+      font-size: 1.2em;
+      color: #f0f0f0;
+      margin-top: 10px;
+      font-family: Arial, sans-serif;
+    }
+    .eagles {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+    }
+    .eagle {
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      opacity: 0.7;
+    }
+    .eagle1 {
+      top: 20%;
+      animation: fly1 15s linear infinite;
+    }
+    .eagle2 {
+      top: 50%;
+      animation: fly2 20s linear infinite;
+    }
+    .eagle3 {
+      top: 70%;
+      animation: fly3 25s linear infinite;
+    }
+    @keyframes fly1 {
+      0% { left: -50px; }
+      100% { left: calc(100% + 50px); }
+    }
+    @keyframes fly2 {
+      0% { right: -50px; transform: scaleX(-1); }
+      100% { right: calc(100% + 50px); transform: scaleX(-1); }
+    }
+    @keyframes fly3 {
+      0% { left: -50px; }
+      100% { left: calc(100% + 50px); }
+    }
+  </style>
 </div>
-
-
-<h2>Languages:</h2>
-
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) 
-![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
-
-<h2>Mobile dev tools:</h2>
-
-![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)
-![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
-
-<h2>Package managers:</h2>
-
-![PNPM](https://img.shields.io/badge/pnpm-%234a4a4a.svg?style=for-the-badge&logo=pnpm&logoColor=f69220)
-
-<h2>Backend frameworks:</h2>
-
-![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
-![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)
-![DjangoREST](https://img.shields.io/badge/DJANGO-REST-ff1709?style=for-the-badge&logo=django&logoColor=white&color=ff1709&labelColor=gray)
-![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![Nodemon](https://img.shields.io/badge/NODEMON-%23323330.svg?style=for-the-badge&logo=nodemon&logoColor=%BBDEAD)
-![NestJS](https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white)
-
-
-<h2>Frontend toolkit:</h2>
-
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
-![Threejs](https://img.shields.io/badge/threejs-black?style=for-the-badge&logo=three.js&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
-
-
-
-
-
