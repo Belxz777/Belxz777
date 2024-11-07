@@ -1,7 +1,9 @@
 
 
 
-
+<div >
+  <h1 style="text:center">Tech i use:</h1>
+</div>
 
 
 
