@@ -1,10 +1,9 @@
 <div align="center">
-## 🚀 О себе
-
-```
+<h1>О себе</h1>
+  
 💻 Fullstack разработчик
 🎯 Цель: Разработка крутых решений совмешающих в себе безопасность и скорость
-```
+
 ## 📊 GitHub Статистика
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Belxz777&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=00FF88&icon_color=00FF88&text_color=FFFFFF" alt="GitHub Stats" />
@@ -17,11 +16,13 @@
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Belxz777&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=00FF88&text_color=FFFFFF" alt="Top Languages" />
 </p>
-## 📈 Активность
+
+<h1>📈 Активность </h1>
+
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Belxz777&theme=react-dark&bg_color=0D1117&color=00FF88&line=00FF88&point=FFFFFF&area=true&hide_border=true" alt="Activity Graph" />
 </p>
-## 🤝 Связаться со мной
+<h1> 🤝 Связаться со мной </h1>
 <p align="center">
    <a href="belxz888@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
