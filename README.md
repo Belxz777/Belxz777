@@ -1,8 +1,5 @@
 <div align="center">
   
-<h2> 💻 Fullstack разработчик </h2>
-<h2> ⚡ Что делаю: Разработка крутых решений совмещающих в себе безопасность и скорость</h2>
-
 ## 📊  Статистика
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Belxz777&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=00FF88&icon_color=00FF88&text_color=FFFFFF" alt="GitHub Stats" />
